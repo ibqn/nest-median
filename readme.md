@@ -3,7 +3,7 @@
 project was created by
 
 ```bash
-npx @nestjs/cli new median
+npx @nestjs/cli new nest-median
 ```
 
 ## Installation
@@ -36,4 +36,16 @@ $ pnpm run test:e2e
 
 # test coverage
 $ pnpm run test:cov
+```
+
+## Migrate the database
+
+```shell
+pnpm prisma migrate dev --name "init"
+```
+
+seed database with initial data
+
+```bash
+pnpm prisma db seed
 ```
