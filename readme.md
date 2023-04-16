@@ -49,3 +49,10 @@ seed database with initial data
 ```bash
 pnpm prisma db seed
 ```
+
+## Create servises
+
+```bash
+pnpm nest generate module prisma
+pnpm nest generate service prisma
+```
