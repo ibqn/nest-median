@@ -50,9 +50,18 @@ seed database with initial data
 pnpm prisma db seed
 ```
 
-## Create servises
+## Create services
 
 ```bash
 pnpm nest generate module prisma
 pnpm nest generate service prisma
+```
+
+## Create resource
+
+```bash
+pnpm nest generate resource
+# ? What name would you like to use for this resource (plural, e.g., "users")? articles
+# ? What transport layer do you use? REST API
+# ? Would you like to generate CRUD entry points? Yes
 ```
