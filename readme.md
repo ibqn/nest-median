@@ -59,9 +59,20 @@ pnpm nest generate service prisma
 
 ## Create resource
 
+create articles
+
 ```bash
 pnpm nest generate resource
 # ? What name would you like to use for this resource (plural, e.g., "users")? articles
+# ? What transport layer do you use? REST API
+# ? Would you like to generate CRUD entry points? Yes
+```
+
+create users
+
+```shell
+pnpm nest generate resource
+# ? What name would you like to use for this resource (plural, e.g., "users")? users
 # ? What transport layer do you use? REST API
 # ? Would you like to generate CRUD entry points? Yes
 ```
