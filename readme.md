@@ -76,3 +76,12 @@ pnpm nest generate resource
 # ? What transport layer do you use? REST API
 # ? Would you like to generate CRUD entry points? Yes
 ```
+
+create auth
+
+```shell
+pnpm nest generate resource
+# ? What name would you like to use for this resource (plural, e.g., "users")? auth
+# ? What transport layer do you use? REST API
+# ? Would you like to generate CRUD entry points? No
+```
