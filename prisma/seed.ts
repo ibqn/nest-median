@@ -37,6 +37,7 @@ async function main() {
       description:
         "We are excited to share that today's Prisma ORM release adds stable support for MongoDB!",
       published: false,
+      authorId: user1.id,
     },
   });
 
@@ -51,6 +52,7 @@ async function main() {
       description:
         'Learn about everything in the Prisma ecosystem and community from January to March 2022.',
       published: true,
+      authorId: user2.id,
     },
   });
 
