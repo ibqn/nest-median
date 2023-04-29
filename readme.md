@@ -85,3 +85,9 @@ pnpm nest generate resource
 # ? What transport layer do you use? REST API
 # ? Would you like to generate CRUD entry points? No
 ```
+
+## Using prisma studio
+
+```shell
+pnpm prisma studio
+```
