@@ -91,3 +91,9 @@ pnpm nest generate resource
 ```shell
 pnpm prisma studio
 ```
+
+## Generate prisma client
+
+```shell
+pnpm prisma generate
+```
